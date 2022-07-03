@@ -15,7 +15,7 @@ const App = () => {
       <Layout>
         <div className='routes'>
         <Routes>
-          <Route path='/' element={<Homepage />}exact>
+          <Route path='/#' element={<Homepage />}exact>
           </Route>
 
           <Route  path='/cryptocurrencies' element={<Cryptocurrencies />}>
