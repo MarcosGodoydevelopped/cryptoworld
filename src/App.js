@@ -27,7 +27,7 @@ const App = () => {
         </Routes>
         </div>
       </Layout>
-    <footer className='footer' >
+    <div className='footer' >
 <Typography.Text leve={5} style={{color:'white', textAlign:'center'}}>
 CryptoVerse <br/> All right reserverd
 </Typography.Text>
@@ -35,8 +35,8 @@ CryptoVerse <br/> All right reserverd
   <Link to='/'>Home</Link>
   <Link to='/news'>News</Link>
 </Space>
-</div> 
-    </footer>
+</div>
+    </div>
     </div>
   );
 }
